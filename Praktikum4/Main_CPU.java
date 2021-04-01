@@ -25,6 +25,6 @@ public class Main_CPU {
         CPU.Processor proc = prosessor.new Processor();
         CPU.RAM memori = prosessor.new RAM();
         System.out.println("Prosessor Cache = " + proc.getCache());
-        System.out.println("Ram Clock Speen = " + memori.getClockSpeed());
+        System.out.println("Ram Clock Speed = " + memori.getClockSpeed());
     }
 }
