@@ -4,7 +4,7 @@ public class Siswa {
     private int NilaiTeori;
     private int NilaiPraktek;
 
-// getter and setter methods
+    // getter and setter methods
     public String getNim() {return Nim;}
     public void setNim(String Nim) {this.Nim = Nim;}
     public String getNama() {return Nama;}
@@ -14,12 +14,12 @@ public class Siswa {
     public int getNilaiPraktek() {return NilaiPraktek;}
     public void setNilaiPraktek(int NilaiPraktek) {this.NilaiPraktek = NilaiPraktek;}
 
-//    default constructor
+    //    default constructor
     public Siswa(){
         super();
     }
 
-//    parameterized constructor
+    //    parameterized constructor
     public Siswa(String Nim, String Nama, int NilaiTeori, int NilaiPraktek){
         super();
         this.Nim = Nim;
